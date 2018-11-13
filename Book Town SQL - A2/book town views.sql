@@ -1,20 +1,3 @@
-
--- COSC210 Practical Assignment 1 Template
-
--- Please complete the assignment questions using the view templates
--- provided below.
-
--- *******************************************************************
---                           IMPORTANT
--- *******************************************************************
-
--- Make sure that you do not alter the names of the views or their
--- attribute values. If you do your assignment will not work in the
--- auto-marking software and you may lose marks!
-
--- *******************************************************************
-
-
 CREATE VIEW old_books(first_name,last_name,book_title, edition)
 AS SELECT first_name, last_name, title, publication
 FROM authors, books, editions
